@@ -26,7 +26,7 @@ app.use("/api/health", (req, res) => {
 });
 
 //routes
-app.use("/api",transactionRoutes)
+app.use("/transactions",transactionRoutes)
 
 
 initDB().then(() => {
